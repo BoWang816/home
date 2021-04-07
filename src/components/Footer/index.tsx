@@ -3,16 +3,15 @@ import styles from './index.less';
 export default function FooterComponent() {
     return (
         <div className={styles.footer}>
-            <div class="copyright">©2020 - 2021 By Bo.Wang</div>
-            <div class="copyright">陕ICP备19011549号</div>
-            <div class="footer_custom_text">
+            <div>©2020 - 2021 By Bo.Wang</div>
+            <div>陕ICP备19011549号</div>
+            <div>
                 <p>
                     <a target="_blank" href="https://vercel.com/" rel="external nofollow noreferrer">
                         <img
                             src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&amp;logo=Vercel"
                             title="本站默认线路托管于Vercel"
                             data-ll-status="loading"
-                            class="entered loading"
                         />
                     </a>
                     &nbsp;
@@ -21,7 +20,6 @@ export default function FooterComponent() {
                             src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&amp;logo=GitHub"
                             title="本站项目源码由Gtihub托管"
                             data-ll-status="loading"
-                            class="entered loading"
                         />
                     </a>
                     &nbsp;
@@ -30,7 +28,6 @@ export default function FooterComponent() {
                             src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&amp;logo=Claris"
                             title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
                             data-ll-status="loading"
-                            class="entered loading"
                         />
                     </a>
                 </p>
