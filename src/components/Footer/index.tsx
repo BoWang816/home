@@ -6,6 +6,10 @@ export default function FooterComponent() {
             <div>©2020 - 2021 By Bo.Wang</div>
             <div>陕ICP备19011549号</div>
             <div>
+                <img src="https://cdn.jsdelivr.net/gh/BoWang816/zPicture@main/20210628/gongan.png" alt="" />
+                陕公网安备61010402000400号
+            </div>
+            <div>
                 <p>
                     <a target="_blank" href="https://vercel.com/" rel="external nofollow noreferrer">
                         <img
